@@ -16,7 +16,7 @@ public class CamadaCollectionSet {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Digite um número " + (i+1)+  ": ");
 			int numero = sc.nextInt();
-		//contains verifica se o elemento está armazenado na collection
+		//contains verifica se o elemento está armazenado na collection o add adiciona
 			while (numeros.contains(numero)) {
                 System.out.println("Número já digitado,por favor digite outro número: ");
                 numero = sc.nextInt();
